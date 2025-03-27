@@ -1,0 +1,58 @@
+.menu-toggle .menu-icon {
+    width: 2rem;
+}
+
+.menu-items {
+    transition: right 1s linear;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+#menu-toggler {
+    display: none;
+}
+
+#menu-toggler:checked+.menu-items {
+    right: 0;
+
+}
+
+/* header end */
+
+/* footer */
+
+
+
+ footer .top .first p{
+    width: 408px;
+  
+
+
+} 
+ footer .bottom-footer .top{
+    width: 40%;
+ }
+
+ footer .bottom-footer .top .top-left{
+    width: 90%;
+ }
+ 
+
+footer .top-left p a{
+    text-decoration: underline;
+}
+
+
+
+
+footer .top-footer .subscription-form input{
+    width: 80%;
+    max-width: 37.5rem;
+    border: none;
+    outline: none;
+    
+}
+
