@@ -62,16 +62,7 @@
 
 }
 
-    @media (max-width: 565px) {
-        .container{
-            max-width: 100%;
-            padding-inline: 2rem;
-        }
-        .btn {
-            padding: 0.7rem 1.5rem !important;
-            font-size: 0.9rem !important;
-        }
-    }
+    
 
 
 /* header end */
@@ -125,6 +116,15 @@
     
     footer .top-footer input{
         width: 100%;
+    }
+
+    footer .top-footer .btn-footer{
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin-left: 10px;
+        
+        
     }
     
 } 
@@ -203,6 +203,8 @@
         text-align: center;
         gap: 1.25rem;
     }
+    
+   
 
     
 }
@@ -305,9 +307,15 @@
     .hero-section .left p{
         width: 100%;
     }
-    .button{
+    .hero-section .button{
         flex-direction: column;
+      
     }
+    .hero-section .button .btn{
+       font-size: 1rem;
+       padding: 0.5rem 1rem;
+    }
+  
 
     .hero-section ul img{
      gap: 10px;
