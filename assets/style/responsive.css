@@ -52,8 +52,27 @@
     header .btn-footer{
         gap: 20px;
     }
+    header .logo{
+        padding-right:10px ;
+    }
+    .btn{
+        font-size: var(--font-size-16);
+        padding:  0.5rem;
+    }
 
 }
+
+    @media (max-width: 565px) {
+        .container{
+            max-width: 100%;
+            padding-inline: 2rem;
+        }
+        .btn {
+            padding: 0.7rem 1.5rem !important;
+            font-size: 0.9rem !important;
+        }
+    }
+
 
 /* header end */
 /* footer bottom */
@@ -186,4 +205,129 @@
     }
 
     
+}
+
+/* hero section */
+ @media (max-width: 1200px) {
+    .container{
+        max-width: 991px;
+    }
+
+    .hero-section .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .left {
+        width: 100%;
+    }
+    .right{
+        width: 50%;
+        margin-inline: auto;
+    }
+    .hero-section .left{
+        padding-top: 3.125rem;
+    }
+    
+
+    .hero-section .left h1 {
+        font-size: 3.125rem;
+        line-height: 3.75rem;
+    }
+    .hero-section .left p{
+        width: 100%;
+    }
+    .button {
+        justify-content: center;
+    }
+    .hero-section .left .delicies {
+        left: -20%; 
+        top: 30%;
+      
+    }
+
+   
+} 
+
+@media (max-width:991px){
+
+    .container{
+        max-width: 767px;
+    }
+    .hero-section .left h1 {
+        font-size: 2.6rem;  
+        line-height: 3.1rem;
+    }
+    .hero-section .left .delicies {
+        left: -30%; 
+        top: 30%;
+      
+    }
+
+    
+}
+@media (max-width:767px){
+    .container{
+        max-width: 550px;
+    }
+    .hero-section .left h1 {
+        font-size: 2rem;  
+        line-height: 2.5rem;
+    }
+    .hero-section .left p{
+        width: 100%;
+    }
+    .hero-section .left .delicies {
+        left: -40%; 
+        top: 40%;
+       
+      
+    }
+}
+
+@media (max-width:575px){
+    .container{
+        max-width: 100%;
+        /* padding-inline: 2rem; */
+    }
+
+    .hero-section .left .delicies {
+        left: -30%; 
+        top: 20%;
+        max-width: 40%;
+      
+    }
+    .hero-section .left h1 {
+        font-size: 1.5rem;  
+        line-height: 2rem;
+    }
+
+    .hero-section .left p{
+        width: 100%;
+    }
+    .button{
+        flex-direction: column;
+    }
+
+    .hero-section ul img{
+     gap: 10px;
+    }
+}
+/* body */
+@media (max-width:991px){
+    body{
+       background-size: 50%;
+    }
+}
+
+@media (max-width:767px){
+    body{
+       background-size: 60%;
+    }
+}
+
+@media (max-width:565px){
+    body{
+       background-size: 70%;
+    }
 }

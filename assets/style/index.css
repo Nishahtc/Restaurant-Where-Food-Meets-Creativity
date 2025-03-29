@@ -21,6 +21,15 @@
 }
 
 /* header end */
+/* body */
+body{
+    background-image: url(../images/image/circles.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    
+}
 
 /* footer */
 
@@ -46,8 +55,6 @@ footer .top-left p a{
 }
 
 
-
-
 footer .top-footer .subscription-form input{
     width: 80%;
     max-width: 37.5rem;
@@ -55,4 +62,38 @@ footer .top-footer .subscription-form input{
     outline: none;
     
 }
+/* footer end */
 
+/* hero section */
+
+.hero-section .left{
+   width: 50%;
+} 
+
+.vector-1 {
+    
+  
+   translate: -40% -40%;
+}
+
+
+.vector-2 {
+  
+  
+   translate: 40% -40%;
+   
+}
+
+.vector-3 {
+  
+   translate: 55%;
+}
+.hero-section .dish{
+    max-width: 60%;
+    translate: -60% -1rem;
+
+}
+.hero-section .delicies{
+    translate: -40% -150%;
+}
+/* hero section end */
