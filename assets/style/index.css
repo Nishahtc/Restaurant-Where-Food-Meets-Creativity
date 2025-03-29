@@ -1,0 +1,109 @@
+.menu-toggle .menu-icon {
+    width: 2rem;
+}
+
+.menu-items {
+    transition: right 1s linear;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+#menu-toggler {
+    display: none;
+}
+
+#menu-toggler:checked+.menu-items {
+    right: 0;
+
+}
+
+/* header end */
+/* body */
+body{
+    background-image: url(../images/image/circles.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    
+}
+
+/* footer */
+
+
+
+ footer .top .first p{
+    width: 408px;
+  
+
+
+} 
+ footer .bottom-footer .top{
+    width: 40%;
+ }
+
+ footer .bottom-footer .top .top-left{
+    width: 90%;
+ }
+ 
+
+footer .top-left p a{
+    text-decoration: underline;
+}
+
+
+footer .top-footer .subscription-form input{
+    width: 80%;
+    max-width: 37.5rem;
+    border: none;
+    outline: none;
+    
+}
+/* footer end */
+
+/* hero section */
+
+.hero-section .left{
+   width: 50%;
+} 
+
+.vector-1 {
+    
+  
+   translate: -40% -40%;
+}
+
+
+.vector-2 {
+  
+  
+   translate: 40% -40%;
+   
+}
+
+.vector-3 {
+  
+   translate: 55%;
+}
+.hero-section .dish{
+    max-width: 60%;
+    translate: -60% -1rem;
+
+}
+.hero-section .delicies{
+    translate: -40% -150%;
+}
+/* hero section end */
+/* dish */
+/* .dishes .top h2{
+    width: 50%;
+    margin-inline: auto;
+}
+
+.dishes .top p{
+    width: 40%;
+    margin-inline: auto;
+} */
