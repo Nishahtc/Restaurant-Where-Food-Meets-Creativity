@@ -140,6 +140,7 @@ footer a:hover{
 .w-198{width: 12.375rem;}
 .w-full{width: 100%;}
 .max-w-60\/1{max-width: 60%;}
+.max-w-20\/1{max-width: 20%;}
 .max-w-90\/1{max-width: 90%;}
 .max-w-1\/2{max-width: 50%;}
 
@@ -200,6 +201,7 @@ footer a:hover{
 .mb-234{margin-bottom: 14.625rem;}
 .mx-auto{margin-inline: auto;}
 .m{margin: auto;}
+.mx-552{margin-inline:34.5rem ;}
 .m-left-39{margin-left: 2.4375rem;}
 
 /* padding */
@@ -210,7 +212,8 @@ footer a:hover{
 .pt-82{padding-top:var(--pt-82);}
 .pt-56{padding-top: var(--pt-56);}
 .pt-24{padding-top:1.5rem}
-.pt-96{padding-top: 96px;}
+.pt-96{padding-top: 5.875rem;}
+.pt-92{padding-top: 5.75rem;}
 .pt-14{padding-top: 0.875rem;}
 .pt-36{padding-top: 2.25rem;}
 .pt-335{padding-top: 20.9375rem;}
