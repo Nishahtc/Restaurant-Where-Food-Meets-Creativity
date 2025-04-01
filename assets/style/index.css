@@ -98,12 +98,96 @@ footer .top-footer .subscription-form input{
 }
 /* hero section end */
 /* dish */
-/* .dishes .top h2{
-    width: 50%;
-    margin-inline: auto;
+ .dishes .top h2{
+   max-width: 480px;
+ 
 }
 
 .dishes .top p{
-    width: 40%;
-    margin-inline: auto;
-} */
+    max-width: 376px;
+    text-align: center;
+ 
+} 
+.dishes .dish-vector1{
+    translate: 50% 20%;
+    max-width: 60%;
+}
+.dishes .dish-vector2{
+    translate: -90% 15%;
+    max-width: 60%;
+}
+
+.dishes .bottom .card{
+    max-width: 265px;
+    border: 2px solid white;
+    background-color: var(--bg-light-white);
+    border-top-left-radius: 30px;
+   
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    transition: transform 0.3s ease;
+    
+                   
+}
+.dishes .card:hover{
+   transform: scale(1.1);
+    background-color: var(--bg-white);
+}
+.dishes .dish-img{
+    margin-top: -103px;
+  
+    
+   
+}
+ .dishes .dish-vector3{
+    translate: 55% 35%;
+    max-width: 60%;
+} 
+.dishes .dish-vector4{
+    translate: 20% 35%;
+    max-width: 100%;
+}
+.dishes .dish-vector5{
+    translate: 140% 50%;
+    max-width: 100%;
+}
+.dishes .price{
+    width: 54px;
+    aspect-ratio: 1/1;
+    background-color: var(--text-dark);
+    border-radius: 50%;
+    translate: 10% -100%;
+  
+   
+}
+
+.welcome .left{
+    max-width: 50%;
+}
+.welcome .left img{
+    max-width: 100%;
+    margin-top: -90px;
+}
+
+.welcome .right{
+    max-width: 60%;
+}
+.welcome .w-vector{
+    translate: 10% -45%;
+    max-width: 60%;
+}
+.welcome .w-vector2{
+    translate: 55% 8%;
+    max-width: 60%;
+}
+.welcome .w-vector3{
+    translate: 2% 10%;
+    max-width: 60%;
+}
+.welcome p  {
+    max-width: 376px;
+}
+
+.welcome .card p{
+    max-width: 225px;
+}

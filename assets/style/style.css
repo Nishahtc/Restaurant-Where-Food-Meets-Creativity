@@ -61,6 +61,7 @@ body{
 }
 html{
     font-size: 16px;
+    font-weight: 400;
     
 }
 /* container */
@@ -117,6 +118,11 @@ footer a:hover{
 .end{align-items: end;}
 .items-baseline{align-items: first baseline;}
 .grow-1{flex-grow: 1;}
+.grid{display: grid;}
+.grid-column1{ grid-template-columns: repeat(4, 1fr);}
+
+.row-gap-130{row-gap: 8.125rem;}
+.column-gap-30{column-gap: 1.875rem;}
 
 
 /* text center */
@@ -203,25 +209,35 @@ footer a:hover{
 .m{margin: auto;}
 .mx-552{margin-inline:34.5rem ;}
 .m-left-39{margin-left: 2.4375rem;}
-
+.mb-51{margin-bottom: 3.1875rem;}
 /* padding */
 .px-248{padding-inline: var(--px-248);}
 .px-220{padding-inline: var(--px-220);}
 .px-552{padding-inline: var(--px-552);}
+
 .pt-94{padding-top:var(--pt-94);}
 .pt-82{padding-top:var(--pt-82);}
 .pt-56{padding-top: var(--pt-56);}
 .pt-24{padding-top:1.5rem}
+.pt-124{padding-top:7.75rem}
+.pt-156{padding-top: 9.75rem;}
 .pt-96{padding-top: 5.875rem;}
 .pt-92{padding-top: 5.75rem;}
+.pb-92{padding-bottom: 5.75rem;}
+.pb-76{padding-bottom: 4.75rem;}
+.pb-144{padding-bottom: 9rem;}
+.pb-300{padding-block: 300px;}
 .pt-14{padding-top: 0.875rem;}
 .pt-36{padding-top: 2.25rem;}
+.pb-30{padding-bottom: 1.875rem;}
 .pt-335{padding-top: 20.9375rem;}
 .pt-196{padding-top: 12.25rem;}
 .pb{padding-block: 158px;}
+.pb-76{padding-bottom: 4.75rem;}
 .px-auto{padding-inline: auto;}
 .px-17{padding-inline: 1.0625rem;}
 .py-30{padding-block: 1.875rem;}
+.px-30{padding-inline: 1.875rem;}
 .pt-85{padding-top: 5.3125rem;}
 .py-6{padding-block: 0.375rem;}
 .pr-1{padding-right: 1rem;}
@@ -229,6 +245,8 @@ footer a:hover{
 /* .px-177{padding-inline: 11.0625rem;} */
 .pb-234{padding-bottom: 14.625rem;}
 .pb-58{padding-bottom: 3.625rem;}
+.pb-51{padding-bottom: 3.1875rem;}
+.pb-21{padding-bottom: 1.3125rem;}
 
 
 /* gap */
@@ -237,6 +255,7 @@ footer a:hover{
 .gap-68{gap: var(--gap-68);}
 .gap-16{gap: 1rem;}
 .gap-20{gap: 1.25rem;}
+.gap-30{gap: 1.875rem;}
 .gap-25{gap: 1.5625rem;}
 .gap-77{gap: 4.8125rem;}
 .gap-104{gap: 6.5rem;}
@@ -275,6 +294,7 @@ footer a:hover{
 
 /* opacity */
 .opacity-20{opacity: .2;}
+.opacity-10{opacity: 10;}
 .rotate-75{transform: rotate(-75deg);}
 
 /* GRID */
