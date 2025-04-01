@@ -678,31 +678,8 @@
         max-width: 90%;
     }
 }
-@media (max-width:400px){
-    .container{
-        max-width: 100%;
-        padding-inline: 3rem;
-    }
-    .dishes .dish-vector5 {
-        translate: 30% 150%;
-        max-width: 50%;
-    }
-}
 
-.dishes .dish-vector1 {
-    translate:-5%  70px;
-   width: 100px;
-   max-width: 20%;
-}
 
-.dishes .dish-vector2 {
-    translate: -5% 60%;
-    width: 100px;
-    max-width: 20%;
-}
 
-.dishes .dish-vector5 {
-    translate: 60% 180%;
-    width: 200px;
-    max-width: 50%;
-}
+
+
