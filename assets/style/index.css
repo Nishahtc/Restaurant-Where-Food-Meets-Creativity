@@ -62,6 +62,7 @@ footer .top-footer .subscription-form input{
     outline: none;
     
 }
+
 /* footer end */
 
 /* hero section */
@@ -190,4 +191,83 @@ footer .top-footer .subscription-form input{
 
 .welcome .card p{
     max-width: 225px;
+}
+
+.chef .right{
+    width: 40%;
+}
+.chef .right img{
+  width: 507px;
+}
+.chef .left{
+    width: 60%;
+    
+}
+.chef .left p{
+    max-width: 376px;
+}
+.chef .chef-vector1{
+    translate: -260% 150px;
+
+}
+.chef .chef-vector2{
+    translate: -30% 40px;
+
+}
+.chef li a{
+    font-family: var(--secondary-font-family);
+    line-height: 1.3125rem;
+    color: var(--text-gray);
+}
+.chef-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0.625rem; 
+    padding: 0;
+   
+  
+}
+
+.chef-item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding-bottom: 2.0625rem;
+}
+
+.chef-item img {
+  max-height: 1.25rem;
+}
+
+.testmonial .top img{
+    max-width: 45%;
+    translate: -110px -14px;
+}
+.testmonial .top p{
+    max-width: 376px;
+    margin: auto;
+}
+.testmonial .top h2{
+    max-width: 645px;
+    margin: auto;
+}
+.testmonial .card{
+    max-width: 639px;
+    translate: 40% 68px;
+    background-color: var(--bg-white);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+    align-items: center;
+}
+.testmonial .card p:first-of-type{
+   max-width: 383px;
+  
+}
+.testmonial .card .person-img{
+  max-width: 109px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-top: -50px;
 }
